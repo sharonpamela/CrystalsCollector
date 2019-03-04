@@ -3,10 +3,9 @@
     height: 100%;
     background: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    /* background-size: auto; */
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-content: center;
 }
 
@@ -17,7 +16,6 @@
     line-height: normal;
     font-size: 24px;
     color: #FFFFFF;
-    /* text-align: center; */
     margin:3px;
 }
 
@@ -28,7 +26,6 @@
     line-height: normal;
     font-size: 48px;
     color: #FFFFFF;
-    /* text-align: center; */
     margin:3px;
 }
 
@@ -101,6 +98,7 @@
     margin: 20px;
     padding: 10px;
 }
+
 #howToPlayContOuter{
     display: flex;
     flex-direction: row;
@@ -109,7 +107,7 @@
 
 #howToPlayContInner{
     width: 1010px;
-    height: 285px;
+    height: 300px;
     background: rgba(84, 162, 207, 0.68);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
