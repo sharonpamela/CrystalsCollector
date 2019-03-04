@@ -1,0 +1,121 @@
+#body-wrapper{
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+}
+
+.smallLabels{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    margin:3px;
+}
+
+.medLabels{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    margin:3px;
+}
+
+.bigLabels{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 72px;
+    color: #FFFFFF;
+    text-align: center;
+    margin:3px; 
+}
+
+/* specified the size of the crystal images */
+.crystal{
+    width: 185px;
+    height: 236px;
+}
+
+#crystalContOuter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#crystalContInner{
+    width: 1018px;
+    background: rgba(199, 165, 198, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#statsCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#ranNumberCont{
+    width: 319px;
+    height: 172px;
+    background: rgba(105, 105, 179, 0.45);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#winLossCont{
+    width: 204px;
+    height: 174px;   
+    background: rgba(137, 95, 172, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#totalScoreCont{
+    width: 300px;
+    height: 174px;  
+    background: rgba(137, 95, 172, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+#howToPlayContOuter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#howToPlayContInner{
+    width: 1010px;
+    height: 285px;
+    background: rgba(84, 162, 207, 0.68);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    justify-content: center;
+}
+

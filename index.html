@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <!-- Added link to css and styling -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <!-- Added link to the jQuery Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="body-wrapper">
+        <!-- title -->
+        <div>
+            <h1 class="bigLabels">Crystals Collector</h1>
+        </div>
+    
+        <!-- crystals -->
+        <!-- note: double containe to create the centered look with the centered background -->
+        <div id="crystalContOuter">
+            <div id="crystalContInner">
+                <img src="assets/images/crystal1.png" alt="crystal 1" id="crystal1" class="crystal">
+                <img src="assets/images/crystal2.png" alt="crystal 2" id="crystal2" class="crystal">
+                <img src="assets/images/crystal3.png" alt="crystal 3" id="crystal3" class="crystal">
+                <img src="assets/images/crystal4.png" alt="crystal 4" id="crystal4" class="crystal">
+            </div>
+        </div>
+        <!-- stats -->
+        <div id="statsCont">
+            <!-- random number -->
+            <div id="ranNumberCont"> 
+                <p class="smallLabels">Target Number:</p>
+                <!-- this is the random number -->
+                <p class="bigLabels" id="randNumber">test</p>
+            </div>
+            <!-- winLoss -->
+            <div id="winLossCont">
+                <p class="smallLabels">Wins: <span id="winsLabel"></span></p>
+                <p class="smallLabels">Losses: <span id="lossLabel"></span></p>
+            </div>
+            <!-- user progress number -->
+            <div id="totalScoreCont">
+                <p class="smallLabels">Accumulated Number:</p>
+                <p class="bigLabels" id="totalWinsLabel">test</p>
+            </div>
+        </div>
+        <!-- how to play -->
+        <div id="howToPlayContOuter">
+            <div id="howToPlayContInner">
+                <h2 class="medLabels">How to Play:</h2>
+                <p class="smallLabels">You will be given a random number at the start of the game.</p>
+                <p class="smallLabels">There are four crystals above. By clicking on a crystal, you will add a specific amount of points to your total score.</p>   
+                <p class="smallLabels">You win the game by matching your total score to the random numberr gievn. you lose the game if your total scroe goes above the random number. </p>
+                <p class="smallLabels">The value of each crystal is hidden from you until you click on it.</p>
+                <p class="smallLabels">Each time when the game starts, the game will change the values of each of the crystals.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add reference to js file -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
