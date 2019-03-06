@@ -1,3 +1,4 @@
+
 window.onload = function () { 
 
     //variables
@@ -5,10 +6,6 @@ window.onload = function () {
     let losses =0;
     let currentScore =0;
     let randomTargetNum =0;
-    // let crystal1Val =0;
-    // let crystal2Val =0;
-    // let crystal3Val =0;
-    // let crystal4Val =0;
     
     // 1. generate a random number for the user to guess between 19 - 120 and display it
     // 2. generate 4 numbers between 1-12, assign number to crystals, and display it
@@ -60,7 +57,7 @@ window.onload = function () {
         $("#randNumberLabel").text(randomTargetNum);
         //update user's accumulated score=0
         currentScore =0;
-        $("#totalScoreLabel").text("0");
+        $("#totalScoreLabel").text("");
         console.log(randomTargetNum);
     }
 
